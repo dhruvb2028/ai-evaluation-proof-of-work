@@ -1,0 +1,128 @@
+{
+  "benchmark": "robust-trimmed-mean",
+  "candidate": "Reference implementation",
+  "checks": [
+    {
+      "detail": "",
+      "name": "untrimmed mean",
+      "passed": true,
+      "points": 10,
+      "section": "Core correctness"
+    },
+    {
+      "detail": "",
+      "name": "symmetric trimming",
+      "passed": true,
+      "points": 10,
+      "section": "Core correctness"
+    },
+    {
+      "detail": "",
+      "name": "duplicates and negatives",
+      "passed": true,
+      "points": 8,
+      "section": "Core correctness"
+    },
+    {
+      "detail": "",
+      "name": "generator input",
+      "passed": true,
+      "points": 7,
+      "section": "Core correctness"
+    },
+    {
+      "detail": "",
+      "name": "deterministic seeded cases",
+      "passed": true,
+      "points": 10,
+      "section": "Core correctness"
+    },
+    {
+      "detail": "",
+      "name": "empty input validation",
+      "passed": true,
+      "points": 5,
+      "section": "Robustness and validation"
+    },
+    {
+      "detail": "",
+      "name": "trim fraction validation",
+      "passed": true,
+      "points": 6,
+      "section": "Robustness and validation"
+    },
+    {
+      "detail": "",
+      "name": "non-numeric validation",
+      "passed": true,
+      "points": 5,
+      "section": "Robustness and validation"
+    },
+    {
+      "detail": "",
+      "name": "boolean rejection",
+      "passed": true,
+      "points": 5,
+      "section": "Robustness and validation"
+    },
+    {
+      "detail": "",
+      "name": "non-finite validation",
+      "passed": true,
+      "points": 9,
+      "section": "Robustness and validation"
+    },
+    {
+      "detail": "",
+      "name": "input immutability",
+      "passed": true,
+      "points": 7,
+      "section": "Behavioral compliance"
+    },
+    {
+      "detail": "",
+      "name": "float return type",
+      "passed": true,
+      "points": 3,
+      "section": "Behavioral compliance"
+    },
+    {
+      "detail": "",
+      "name": "translation invariance",
+      "passed": true,
+      "points": 10,
+      "section": "Behavioral compliance"
+    },
+    {
+      "detail": "",
+      "name": "standard-library-only implementation",
+      "passed": true,
+      "points": 5,
+      "section": "Behavioral compliance"
+    }
+  ],
+  "checks_passed": 14,
+  "checks_total": 14,
+  "failed_checks": [],
+  "grader_version": "2.0",
+  "maximum_score": 100,
+  "passed": true,
+  "passing_score": 85,
+  "schema_version": "1.0",
+  "score": 100,
+  "section_scores": {
+    "Behavioral compliance": {
+      "maximum_score": 25,
+      "score": 25
+    },
+    "Core correctness": {
+      "maximum_score": 45,
+      "score": 45
+    },
+    "Robustness and validation": {
+      "maximum_score": 30,
+      "score": 30
+    }
+  },
+  "seed": 20261026
+}

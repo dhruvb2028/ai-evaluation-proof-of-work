@@ -1,11 +1,11 @@
 {
   "benchmark": "robust-trimmed-mean",
-  "version": "1.0",
+  "version": "2.0",
   "maximum_score": 100,
   "sections": [
     {
       "name": "Core correctness",
-      "points": 50,
+      "points": 45,
       "checks": [
         "untrimmed mean",
         "symmetric trimming",
@@ -27,12 +27,12 @@
     },
     {
       "name": "Behavioral compliance",
-      "points": 20,
+      "points": 25,
       "checks": [
         "input immutability",
         "float return type",
         "translation invariance",
-        "standard-library-only execution"
+        "standard-library-only implementation"
       ]
     }
   ],
