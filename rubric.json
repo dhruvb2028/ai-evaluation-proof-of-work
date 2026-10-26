@@ -1,0 +1,41 @@
+{
+  "benchmark": "robust-trimmed-mean",
+  "version": "1.0",
+  "maximum_score": 100,
+  "sections": [
+    {
+      "name": "Core correctness",
+      "points": 50,
+      "checks": [
+        "untrimmed mean",
+        "symmetric trimming",
+        "duplicates and negative values",
+        "generator input",
+        "deterministic seeded cases"
+      ]
+    },
+    {
+      "name": "Robustness and validation",
+      "points": 30,
+      "checks": [
+        "empty input",
+        "invalid trim fraction",
+        "non-numeric values",
+        "boolean rejection",
+        "non-finite values"
+      ]
+    },
+    {
+      "name": "Behavioral compliance",
+      "points": 20,
+      "checks": [
+        "input immutability",
+        "float return type",
+        "translation invariance",
+        "standard-library-only execution"
+      ]
+    }
+  ],
+  "passing_score": 85
+}
+
