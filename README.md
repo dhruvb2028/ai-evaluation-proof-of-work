@@ -1,6 +1,6 @@
 # Coding-Agent Evaluation Case Study
 
-![Technical evaluation workflow showing code structure, a rubric matrix and calibrated score distributions](assets/benchmark-evaluation-pipeline-v2.png)
+![Coding-agent evaluation case study with verified benchmark metrics and calibration results](assets/recruiter-evaluation-case-study.png)
 
 [![CI](https://github.com/dhruvb2028/ai-evaluation-proof-of-work/actions/workflows/ci.yml/badge.svg)](https://github.com/dhruvb2028/ai-evaluation-proof-of-work/actions/workflows/ci.yml)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
@@ -82,7 +82,7 @@ No third-party Python packages are required.
 ## Repository map
 
 ```text
-assets/benchmark-evaluation-pipeline-v2.png  Recruiter-facing project cover
+assets/recruiter-evaluation-case-study.png  Recruiter-facing project cover
 benchmark_spec.md                         Human-readable task contract
 rubric.json                               Machine-readable 100-point rubric
 grader.py                                 Deterministic evaluation harness

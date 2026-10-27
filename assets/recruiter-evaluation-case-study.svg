@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Coding-Agent Evaluation Case Study</title>
+  <desc id="desc">Recruiter-focused proof-of-work cover showing benchmark checks, regression tests, continuous integration coverage, and score calibration.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#101A31"/>
+    </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="#18233B" stroke-width="1"/>
+    </pattern>
+    <style>
+      .sans { font-family: "Segoe UI", Arial, sans-serif; }
+      .label { font-size: 19px; font-weight: 700; letter-spacing: 3px; }
+      .title { font-size: 68px; font-weight: 700; letter-spacing: -1.5px; }
+      .subtitle { font-size: 27px; font-weight: 400; }
+      .metric { font-size: 54px; font-weight: 700; }
+      .metric-label { font-size: 20px; font-weight: 600; }
+      .small { font-size: 18px; font-weight: 500; }
+      .score { font-size: 27px; font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)" opacity="0.62"/>
+  <rect x="0" y="0" width="12" height="900" fill="#2563EB"/>
+
+  <g class="sans">
+    <text x="92" y="94" class="label" fill="#6EA8FE">PUBLIC PROOF OF WORK  /  AI EVALUATION</text>
+    <text x="92" y="187" class="title" fill="#F8FAFC">Coding-Agent Evaluation</text>
+    <text x="92" y="260" class="title" fill="#F8FAFC">Case Study</text>
+    <text x="92" y="318" class="subtitle" fill="#B8C4DA">A reproducible benchmark package for evaluating code-generating agents.</text>
+
+    <g transform="translate(92 380)">
+      <rect width="290" height="158" rx="12" fill="#111B31" stroke="#2B3A59" stroke-width="2"/>
+      <text x="28" y="73" class="metric" fill="#F8FAFC">14</text>
+      <text x="28" y="116" class="metric-label" fill="#AEBBD3">deterministic checks</text>
+    </g>
+    <g transform="translate(405 380)">
+      <rect width="290" height="158" rx="12" fill="#111B31" stroke="#2B3A59" stroke-width="2"/>
+      <text x="28" y="73" class="metric" fill="#F8FAFC">5</text>
+      <text x="28" y="116" class="metric-label" fill="#AEBBD3">grader regression tests</text>
+    </g>
+    <g transform="translate(718 380)">
+      <rect width="290" height="158" rx="12" fill="#111B31" stroke="#2B3A59" stroke-width="2"/>
+      <text x="28" y="73" class="metric" fill="#F8FAFC">3.10–3.13</text>
+      <text x="28" y="116" class="metric-label" fill="#AEBBD3">Python CI coverage</text>
+    </g>
+
+    <g transform="translate(1060 105)">
+      <rect width="450" height="554" rx="16" fill="#0E172A" stroke="#31415F" stroke-width="2"/>
+      <text x="34" y="58" class="label" fill="#91A4C6">CALIBRATION RESULTS</text>
+      <line x1="34" y1="84" x2="416" y2="84" stroke="#2C3B58" stroke-width="2"/>
+
+      <text x="34" y="137" class="small" fill="#CBD5E1">Reference implementation</text>
+      <text x="416" y="137" class="score" fill="#34D399" text-anchor="end">100 / 100</text>
+      <rect x="34" y="158" width="382" height="14" rx="7" fill="#26334C"/>
+      <rect x="34" y="158" width="382" height="14" rx="7" fill="#34D399"/>
+
+      <text x="34" y="231" class="small" fill="#CBD5E1">Passing threshold</text>
+      <text x="416" y="231" class="score" fill="#60A5FA" text-anchor="end">85 / 100</text>
+      <rect x="34" y="252" width="382" height="14" rx="7" fill="#26334C"/>
+      <rect x="34" y="252" width="325" height="14" rx="7" fill="#60A5FA"/>
+
+      <text x="34" y="325" class="small" fill="#CBD5E1">Flawed candidate</text>
+      <text x="416" y="325" class="score" fill="#F87171" text-anchor="end">68 / 100</text>
+      <rect x="34" y="346" width="382" height="14" rx="7" fill="#26334C"/>
+      <rect x="34" y="346" width="260" height="14" rx="7" fill="#F87171"/>
+
+      <rect x="34" y="407" width="382" height="1" fill="#2C3B58"/>
+      <text x="34" y="458" class="small" fill="#CBD5E1">Evidence included</text>
+      <text x="34" y="494" class="small" fill="#91A4C6">Rubric · grader · diagnostics · JSON reports</text>
+      <text x="34" y="530" class="small" fill="#91A4C6">Regression tests · CI · methodology</text>
+    </g>
+
+    <g transform="translate(92 610)">
+      <text x="0" y="0" class="label" fill="#91A4C6">CAPABILITIES DEMONSTRATED</text>
+      <g transform="translate(0 34)">
+        <rect width="218" height="56" rx="8" fill="#15213A" stroke="#31415F"/>
+        <text x="109" y="36" class="small" fill="#DCE6F8" text-anchor="middle">Rubric design</text>
+      </g>
+      <g transform="translate(235 34)">
+        <rect width="232" height="56" rx="8" fill="#15213A" stroke="#31415F"/>
+        <text x="116" y="36" class="small" fill="#DCE6F8" text-anchor="middle">Grader engineering</text>
+      </g>
+      <g transform="translate(484 34)">
+        <rect width="218" height="56" rx="8" fill="#15213A" stroke="#31415F"/>
+        <text x="109" y="36" class="small" fill="#DCE6F8" text-anchor="middle">Failure analysis</text>
+      </g>
+      <g transform="translate(719 34)">
+        <rect width="250" height="56" rx="8" fill="#15213A" stroke="#31415F"/>
+        <text x="125" y="36" class="small" fill="#DCE6F8" text-anchor="middle">Reproducible evaluation</text>
+      </g>
+    </g>
+
+    <line x1="92" y1="782" x2="1508" y2="782" stroke="#31415F" stroke-width="2"/>
+    <text x="92" y="833" class="small" fill="#91A4C6">Designed for fast technical review: runnable, auditable, and evidence-backed.</text>
+    <text x="1508" y="833" class="small" fill="#CBD5E1" text-anchor="end">github.com/dhruvb2028/ai-evaluation-proof-of-work</text>
+  </g>
+</svg>
